@@ -1,0 +1,103 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  scroll-margin-top: 2rem;
+}
+
+.about .about__left {
+  max-width: 40rem;
+  flex: 1;
+}
+
+.about .about__left p {
+  margin: 1rem 0 2rem;
+}
+
+.about .about__left ul {
+  margin-left: -1.2rem;
+}
+
+.about .about__left ul li {
+  display: inline-block;
+}
+
+.about .about__left ul li a {
+  display: inline-block;
+  padding: .2vw;
+}
+
+.about .about__right {
+  flex: 1;
+  max-width: 66rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .about__left {
+    max-width: 66rem;
+    text-align: center;
+  }
+
+  .about .about__right {
+    text-align: center;
+  }
+
+  .fa-brands {
+    margin: 1.5vw;
+    margin-bottom: 0vw;
+  }
+    
+  ul {
+    margin-bottom: -15vw;
+  }
+}
+
+/*-------------------------------*/
+
+.fa-brands {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 4rem;
+  padding-left: var(--pad--x--);
+  padding-right: var(--pad--x--);
+  padding-top: .4vw;
+  padding-bottom: .3vw
+}
+
+.fa-brands:hover {
+  box-shadow: /*distância da sombra para o objeto em x*/6px
+  /*distância da sombra para o objeto em x*/6px
+  /*desfoque da sombra*/10px
+  /*raio de propagação*/3px
+  #00000066;
+  border-radius: 30%;
+}
+.fa-brands:active {
+  transition: .1s;
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+
+.fa-github {
+  color: #4078c0;
+}
+
+.fa-instagram {
+  color: #c13584;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}

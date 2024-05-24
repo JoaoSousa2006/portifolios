@@ -1,0 +1,74 @@
+.skills {
+  background-color: var(--light-tertiary-color);
+  scroll-margin-top: 15rem;
+}
+
+.skills .skills__content {
+  padding: 6rem 4rem;
+  text-align: center;
+}
+
+.skills .skills__content .description {
+  max-width: 56rem;
+  margin: 0 auto 6rem;
+}
+
+.skills .skills__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.skills .skills__content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.image-container:hover {
+  background: #00000066;
+}
+
+.skills .skills__content ul li h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
+
+.fa-brands, .fa-solid {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 4rem;
+  padding-left: var(--pad--x--);
+  padding-right: var(--pad--x--);
+  padding-top: .4vw;
+  padding-bottom: .3vw
+}
+
+.fa-brands:active {
+  transition: .1s;
+  opacity: 0.6;
+}
+
+.fa-computer {
+  color: #4267b2;
+}
+
+.fa-python {
+  color: #4B8BBE;
+}
+
+.fa-database {
+  color: #c13584;
+}
+
+.fa-robot {
+  color: #0077b5;
+}
